@@ -3,7 +3,7 @@ import os
 from yt_dlp import YoutubeDL
 
 # Render par hum TOKEN ko environment variable se uthayenge
-API_TOKEN = os.environ.get('BOT_TOKEN')
+API_TOKEN = os.environ.get('8753514994:AAGbwCwus8v7KBeNHN6tXW2cZIE7vLXXCX8')
 bot = telebot.TeleBot(API_TOKEN)
 
 @bot.message_handler(commands=['start'])
